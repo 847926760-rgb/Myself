@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谢昕睿 - 个人主页</title>
+    <!-- 引入 Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- 引入 FontAwesome 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 动态背景光晕 -->
+    <div class="cursor-glow"></div>
+    <div class="bg-mesh"></div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">XXR.</div>
+        <ul class="nav-links">
+            <li><a href="#journey">JOURNEY</a></li>
+            <li><a href="#ability">ABILITY</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#social">SOCIAL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首屏 Hero Section -->
+    <section id="hero" class="section reveal new-hero">
+        <div class="hero-content text-center">
+            <h1 class="giant-heading">HELLO, I'M</h1>
+            <h1 class="giant-heading name-gradient"><span class="typewriter-xinrui"></span></h1>
+
+            <div class="edu-tags">
+                <span class="edu-tag"><i class="fa-solid fa-graduation-cap"></i> NTU 南洋理工大学</span>
+                <span class="edu-tag"><i class="fa-solid fa-graduation-cap"></i> BJTU 北京交通大学</span>
+            </div>
+
+            <div class="hero-desc-vertical">
+                <p class="desc-line hover-scale">你好！我是谢昕睿 😊</p>
+                <div class="desc-spacer"></div>
+                <p class="desc-line text-muted hover-scale">作为一名</p>
+                <div class="desc-spacer-small"></div>
+                <p class="desc-line hover-scale">健身博主 💪</p>
+                <p class="desc-line hover-scale">商工交叉背景 🎓</p>
+                <p class="desc-line hover-scale">执行力超强的探索者 🚀</p>
+                <div class="desc-spacer"></div>
+                <p class="desc-line hover-scale">立志做好经手的每一件事</p>
+                <div class="desc-spacer"></div>
+                <p class="desc-line text-muted italic hover-scale">欢迎了解“全部”的我</p>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fa-solid fa-chevron-down bounce"></i>
+        </div>
+    </section>
+
+    <!-- 个人旅程 Journey Section (Timeline) -->
+    <section id="journey" class="section reveal">
+        <h2 class="section-title">JOURNEY</h2>
+        <div class="timeline">
+            <!-- 2021 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021.09 - 2025.06</div>
+                <div class="timeline-content glass-card">
+                    <h3>北京交通大学 🎓</h3>
+                    <h4>工商管理 学士</h4>
+                    <p>期间主修统计学、Python 与战略管理等，培养了坚实的数据与商业交叉思维。</p>
+                </div>
+            </div>
+            <!-- 2021 项目 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021.10 - 2022.04</div>
+                <div class="timeline-content glass-card">
+                    <h3>“正大杯”第十二届全国大学生市场调查与分析大赛 🏆</h3>
+                    <h4>国家级三等奖 (核心队伍成员)</h4>
+                    <p>设计抽样方案覆盖核心范围，运用 AHP 层次分析与 K-means 聚类量化指标并精准定位潜在用户，输出可执行的优质产品营销策略建议。</p>
+                </div>
+            </div>
+            <!-- 2023 证券 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023.07 - 2023.09</div>
+                <div class="timeline-content glass-card">
+                    <h3>西南证券股份有限公司 💼</h3>
+                    <h4>投行部 - 投行助理</h4>
+                    <p>参与多个拟 IPO 项目支持，独立开展行业深度研究验证可行性，并跟进后续尽调访谈工作与风险排雷。</p>
+                </div>
+            </div>
+            <!-- 2023 电信 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023.12 - 2024.02</div>
+                <div class="timeline-content glass-card">
+                    <h3>中国电信股份有限公司 ☁️</h3>
+                    <h4>云中台行业支撑 - 产品/解决方案助理</h4>
+                    <p>主导 B 端产品的业务需求沟通会，把凌乱反馈梳理抽象，并转化为能直接实施的产品执行方案与清晰的项目进度追踪台账。</p>
+                </div>
+            </div>
+            <!-- 2024 毕设 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024.12 - 2025.04</div>
+                <div class="timeline-content glass-card">
+                    <h3>企业 ESG 机器学习预测模型 🤖</h3>
+                    <h4>毕业研究课题</h4>
+                    <p>基于 A 股全量数据，利用 XGBoost 构建极具可解释性的预测模型并可视化生成 SHAP 图，系统性输出策略矩阵支持跨维度决策。</p>
+                </div>
+            </div>
+            <!-- 2025 NTU -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025.08 - 至今</div>
+                <div class="timeline-content glass-card">
+                    <h3>南洋理工大学 (NTU) 🎓</h3>
+                    <h4>管理科学与工程 硕士 (AI 与管理分析方向)</h4>
+                    <p>系统进修AI/数分/算法/供应链运营/管理基础，复合背景致力于在快速变化的不确定性中成长</p>
+                </div>
+            </div>
+            <!-- 2025 项目 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025.12 - 至今</div>
+                <div class="timeline-content glass-card">
+                    <h3>基于扩散模型的图异常学术引用检测（IEEE 顶刊在审）</h3>
+                    <h4>模型泛化重构</h4>
+                    <p>主导将通用图扩散异常检测框架（GRAND）重构为面向学术引用行为的异常检测系统，负责定义异常引用的业务判定逻辑与建模方式</p>
+                </div>
+            </div>
+            <!-- 2026 项目 -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026.02 - 至今</div>
+                <div class="timeline-content glass-card">
+                    <h3>初创项目：金融服务 AI Agent 🤖</h3>
+                    <h4>产品设计及 GTM 策略（起步阶段）</h4>
+                    <p>0到1定义一款面向新加坡及东南亚市场的金融 AI Agent 平台，通过 Multi-Agent 协作架构，解决跨境支付、KYC 身份核验及信贷审批中的高频低效手工流程。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 人生哲学 Philosophy Section -->
+    <section id="philosophy" class="section reveal">
+        <h2 class="section-title">PHILOSOPHY</h2>
+        <div class="philosophy-container glass-card">
+            <h3 class="philosophy-title">人生需要非标准答案：把每一份热爱变成专业的交付</h3>
+            <div class="philosophy-quote">
+                <p class="quote-text">我一直坚信，最佳的成长路径是：</p>
+                <p class="quote-highlight">经历 —— 拆解 —— 重构</p>
+            </div>
+            <p class="philosophy-desc">我尽我所能，将生命中每一份纯粹的热爱，通过系统化的刻意练习沉淀为可量化的能力，最终在真实世界中交付成果。不设限、不设防，用行动去丈量人生的广度。</p>
+        </div>
+    </section>
+
+    <!-- 综合素质与荣誉时刻 Ability Section -->
+    <section id="ability" class="section reveal">
+        <h2 class="section-title">ABILITY</h2>
+
+        <div class="skills-achievements-container">
+            <!-- 左侧：动态呼吸词云 (Dynamic Word Cloud) -->
+            <div class="word-cloud-col glass-card">
+                <div class="word-cloud-container">
+                    <span class="cloud-word w-xl" style="--delay: 0s; --floating: -8px;">VibeCoding</span>
+                    <span class="cloud-word w-m" style="--delay: 0.5s; --floating: 5px;">Management</span>
+                    <span class="cloud-word w-l" style="--delay: 1.2s; --floating: -6px;">Python</span>
+                    <span class="cloud-word w-s" style="--delay: 0.2s; --floating: 4px;">Singing</span>
+                    <span class="cloud-word w-xl text-accent" style="--delay: 1.8s; --floating: -10px;">AI
+                        Strategy</span>
+                    <span class="cloud-word w-l" style="--delay: 0.8s; --floating: 8px;">Codex</span>
+                    <span class="cloud-word w-m" style="--delay: 2.1s; --floating: -5px;">Fitness</span>
+                    <span class="cloud-word w-l" style="--delay: 0.3s; --floating: 6px;">Data Mining</span>
+                    <span class="cloud-word w-xl" style="--delay: 2.5s; --floating: -9px;">Antigravity</span>
+                    <span class="cloud-word w-m text-accent" style="--delay: 1.1s; --floating: 7px;">Execution</span>
+                    <span class="cloud-word w-l" style="--delay: 0.6s; --floating: -7px;">Leadership</span>
+                    <span class="cloud-word w-m" style="--delay: 1.5s; --floating: 5px;">Anti-pressure</span>
+                </div>
+            </div>
+
+            <!-- 右侧：荣誉时刻 (Achievements) -->
+            <div class="achievements-col glass-card">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 600;">Achievements</h3>
+                <div class="achievements-content" style="min-height: 250px; outline: none;">
+                    <h4 style="color: var(--accent-color-1); margin-bottom: 10px;">🏆 学术与竞赛</h4>
+                    <p style="margin-bottom: 15px;">• 优秀学习奖学金，Dean's List（学年排名专业前百分之 10）</p>
+                    <p style="margin-bottom: 15px;">• “正大杯”第十二届全国大学生市场调查与分析大赛 国家级三等奖</p>
+                    <p style="margin-bottom: 20px;">• 基于扩散模型的图异常学术引用检测（IEEE 顶刊在审）</p>
+
+                    <h4 style="color: var(--accent-color-2); margin-bottom: 10px;">🏀 体育与特长</h4>
+                    <p style="margin-bottom: 15px;">• 优秀体育奖学金</p>
+                    <p style="margin-bottom: 15px;">• 校园歌手大赛 八强选手</p>
+                    <p style="margin-bottom: 20px;">• 校足球队/院篮球队 核心成员</p>
+
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 个人风采 Gallery Section -->
+    <section id="gallery" class="section reveal"
+        style="background: var(--bg-color-sec); overflow: hidden; position: relative;">
+        <h2 class="section-title">GALLERY</h2>
+
+        <div class="gallery-container">
+            <!-- 图片 1 -->
+            <div class="gallery-item item-1">
+                <div class="gallery-img-wrapper">
+                    <img class="gallery-img" src="./img/photo1.jpg" style="object-position: center;">
+                </div>
+            </div>
+            <!-- 图片 2 -->
+            <div class="gallery-item item-2">
+                <div class="gallery-img-wrapper">
+                    <img class="gallery-img" src="./img/photo2.jpg" style="object-position: center;">
+                </div>
+            </div>
+            <!-- 图片 3: 学士服照片调整 object-position 以免头部被截断 -->
+            <div class="gallery-item item-3">
+                <div class="gallery-img-wrapper">
+                    <img class="gallery-img" src="./img/photo4.jpg" style="object-position: center top;">
+                </div>
+            </div>
+            <!-- 图片 4 -->
+            <div class="gallery-item item-4">
+                <div class="gallery-img-wrapper">
+                    <img class="gallery-img" src="./img/photo3.jpg" style="object-position: center;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社交平台 Social Section -->
+    <section id="social" class="section reveal">
+        <h2 class="section-title">SOCIAL</h2>
+        <div class="portfolio-grid">
+            <!-- 抖音 -->
+            <a href="https://v.douyin.com/gGVlDLX46Uo/" target="_blank" class="portfolio-card glass-card"
+                style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img" style="color: #1d1d1f;"><i class="fa-brands fa-tiktok"></i></div>
+                <div class="portfolio-info">
+                    <h3>抖音主页</h3>
+                    <p>查看我的更多健身与生活作品 ✨</p>
+                    <div class="tech-stack">
+                        <span>@XINRUI</span><span>运动博主</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 小红书 -->
+            <a href="https://xhslink.com/m/9pKRfgoVkPi" target="_blank" class="portfolio-card glass-card"
+                style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img" style="color: #ff2442;"><i class="fa-solid fa-book-open"></i></div>
+                <div class="portfolio-info">
+                    <h3>小红书</h3>
+                    <p>收获了 2.8 万次赞与收藏，来看看我的分享 📕</p>
+                    <div class="tech-stack">
+                        <span>@XINRUI</span><span>干货分享</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 联系我 Contact Section -->
+    <section id="contact" class="section reveal">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="contact-container glass-card"
+            style="max-width: 600px; margin: 0 auto; padding: 3rem 2rem; border-radius: 20px;">
+            <p style="text-align: center; color: var(--text-color-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                期待与您的交流，随时欢迎通过以下方式联系我：</p>
+
+            <div
+                style="display: flex; flex-direction: column; gap: 1.5rem; justify-content: center; align-items: center;">
+                <a href="tel:+8618723691215" class="contact-item glass-card">
+                    <div class="contact-icon" style="color: var(--accent-color-1);"><i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <span style="font-size: 0.9rem; color: var(--text-color-secondary);">Phone</span>
+                        <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-color-primary);">+86
+                            18723691215</span>
+                    </div>
+                </a>
+
+                <a href="mailto:xxr0315@outlook.com" class="contact-item glass-card">
+                    <div class="contact-icon" style="color: var(--accent-color-2);"><i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <span style="font-size: 0.9rem; color: var(--text-color-secondary);">Email</span>
+                        <span
+                            style="font-size: 1.2rem; font-weight: 600; color: var(--text-color-primary);">xxr0315@outlook.com</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 谢昕睿 (XINRUI). All Rights Reserved. Crafted with Passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
